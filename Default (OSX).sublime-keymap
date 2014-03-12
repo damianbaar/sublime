@@ -1,0 +1,27 @@
+[
+  { "keys": ["j", "j"], "command": "exit_insert_mode",
+  	"context": [
+  		{ "key": "setting.command_mode", "operand": false },
+  		{ "key": "setting.is_widget", "operand": false }]
+  },
+  { "keys": [",", ".", "<character>"], "command": "easy_motion"
+  , "args":{"select_text": false}
+  },
+  { "keys": [",", ".", ".", "<character>"], "command": "easy_motion"
+  , "args": {"select_text": true}
+  },
+	{ "keys": ["ctrl+n"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+x"], "command": "find_under_expand_skip" },
+  { "keys": ["[","["], "command": "toggle_side_bar" },
+  { "keys": ["]","]"], "command": "find_under_expand_skip" },
+	{ "keys": ["g", "t"], "command": "next_view",
+    "context": [
+      { "key": "setting.command_mode", "operand": true },
+      { "key": "setting.is_widget", "operand": false }]
+  },
+  { "keys": ["g", "T"], "command": "prev_view",
+    "context": [
+        { "key": "setting.command_mode", "operand": true },
+        { "key": "setting.is_widget", "operand": false } ]
+  }
+]
