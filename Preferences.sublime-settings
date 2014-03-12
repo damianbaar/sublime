@@ -30,5 +30,7 @@
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": false
+	"word_wrap": false,
+  "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules", "bower_components"]
 }
